@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import re
 
-# הגדרות עמוד
-st.set_page_config(page_title="הספריה שלי", layout="centered")
+# הגדרות עמוד עם אייקון של ספר
+st.set_page_config(page_title="הספריה שלי", page_icon="📚", layout="centered")
 
 # פונקציית עזר להדגשת טקסט
 def highlight_search(text, query):
